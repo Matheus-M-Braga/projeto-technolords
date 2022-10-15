@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #13A7AD;
+    --cor2: #255F61;
+    --cor3: #19DAE0;
+    --cor4: #66F5FA;
+    --cor5: #0B5E61;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    display: inline-block;
+    
+}
+header{
+    background-color: #010A11;
+    text-align: center;
+    color: var(--cor3);
+}
+header > p{
+    display: inline-block;
+    vertical-align: center;
+}
+nav{
+    background-color: var(--cor2);
+}
+nav > a{
+    padding: 7px;
+    margin: 8px;
+}
