@@ -11,6 +11,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url(img/ratojesus.jpg);
+}
 img{
     display: inline-block;
     
