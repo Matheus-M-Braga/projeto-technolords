@@ -6,13 +6,14 @@
     --cor3: #19DAE0;
     --cor4: #66F5FA;
     --cor5: #0B5E61;
+    --cor6: #010A11;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-image: url(img/ratojesus.jpg);
+    background-color: #19DAE0;
 }
 header{
     background-color: #010A11;
@@ -28,8 +29,39 @@ header > p{
 }
 nav{
     background-color: var(--cor2);
+    padding: 10px;
 }
 nav > a{
-    padding: 7px;
-    margin: 8px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: var(--cor3);
+}
+nav > a:hover{
+    background-color: #010a11a9;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+main{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+}
+footer{
+    background-color: #010A11;
+    padding: 20px;
+    padding-left: 10px;
+}
+section#redes_sociais > p > a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: var(--cor3);
+}
+section#redes_sociais > p > a:hover{
+    color: var(--cor2);
+    text-decoration: wavy;
+    transition: 0.6s;
 }
