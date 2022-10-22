@@ -14,14 +14,13 @@
 body{
     background-image: url(img/ratojesus.jpg);
 }
-img{
-    display: inline-block;
-    
-}
 header{
     background-color: #010A11;
     text-align: center;
     color: var(--cor3);
+}
+header > img{
+    display: inline-block;
 }
 header > p{
     display: inline-block;
