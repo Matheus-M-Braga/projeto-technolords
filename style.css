@@ -36,7 +36,7 @@ nav{
 }
 nav > a{
     text-decoration: none;
-    padding: 5px;
+    padding: 4px;
     margin: 10px;
     color: var(--cor3);
 }
